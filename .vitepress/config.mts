@@ -35,6 +35,7 @@ export default defineConfig({
           { text: "前端5个Observer", link: "/javascript/5-observer" },
           { text: "JavaScript30年", link: "/javascript/js-30-years" },
           { text: "stringify的其他用法", link: "/javascript/stringify" },
+          { text: "AbortController", link: "/javascript/abort-controller" },
         ],
       },
       {
@@ -54,7 +55,10 @@ export default defineConfig({
       {
         text: "跑步",
         collapsed: false,
-        items: [{ text: "跑步装备", link: "/running/running-equip" }],
+        items: [
+          { text: "我的跑步装备", link: "/running/running-equip" },
+          { text: "健康跑", link: "/running/healthy-running" },
+        ],
       },
     ],
     footer: {

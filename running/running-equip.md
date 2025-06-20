@@ -10,8 +10,11 @@
 
 ## 背心
 - Running Diary
-- qingkung  较劲
+- QingKung较劲
 - LabAO经典斜条
+
+## 手表
+- 华为GT4（心率不太准，可以考虑入手佳明）
 
 ## 短裤
 - 必迈（天青色）
