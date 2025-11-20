@@ -39,8 +39,15 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Go语言',
+        collapsible: true,
+        items: [
+          { text: '【转载】Go语言的优点和缺点', link: '/go/go-good-bad-ugly' },
+        ],
+      },
+      {
         text: 'TypeScript',
-        collapsible: false,
+        collapsible: true,
         items: [{ text: 'TypeScript片段', link: '/typescript/snippets' }],
       },
       {
