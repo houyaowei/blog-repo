@@ -11,7 +11,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
       - name: Set up pnpm
-        uses: actions/setup-pnpm@v2
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
       - name: Install dependencies
         run: pnpm install
       - name: Build project
@@ -23,7 +25,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           password: ${{ secrets.SSH_PEM_KEY }}
           port: ${{ secrets.SERVER_PORT }}
-          source: .vitepress/
+          source: .vitepress/dist
           target: /usr/share/nginx/html
 
 `
