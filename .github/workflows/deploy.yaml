@@ -1,0 +1,30 @@
+name: Deploy to Alibaba Cloud
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up pnpm
+        uses: actions/setup-pnpm@v2
+      - name: Install dependencies
+        run: pnpm install
+      - name: Build project
+        run: pnpm run docs:build
+      - name: Deploy to Alibaba Cloud with ssh
+        uses: appleboy/ssh-action@v2
+        with:
+          host: ${{ secrets.SERVER_ADDRESS }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PEM_KEY }}
+          port: ${{ secrets.SERVER_PORT }}
+          script: |
+            cd /usr/share/nginx/html
+            rm -rf *
+
+`
