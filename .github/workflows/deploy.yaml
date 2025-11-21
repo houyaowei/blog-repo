@@ -27,4 +27,4 @@ jobs:
           port: ${{ secrets.SERVER_PORT }}
           source: .vitepress/dist/*
           target: /usr/share/nginx/html/
-          strip_components: 1
+          strip_components: true
