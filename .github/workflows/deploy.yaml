@@ -26,5 +26,5 @@ jobs:
           password: ${{ secrets.SSH_PEM_KEY }}
           port: ${{ secrets.SERVER_PORT }}
           source: .vitepress/dist/*
-          target: /usr/share/nginx/html
+          target: /usr/share/nginx/html/
           strip_components: 1
