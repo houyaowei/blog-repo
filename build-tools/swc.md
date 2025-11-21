@@ -96,3 +96,8 @@ npx swc src -d dist .swcrc
 - targets: 设定目标环境，也可以字符串的形式，如 "targets": "> 0.25%, not dead"。
 - mode: 此选项配置如何处理 polyfill，可选项有"usage"，"entry"和undefined。当使用 usage或 entry选项时，swc添加对 core-js 模块的直接引用。 core-js 将根据相对文件进行解析，并且可访问。
 - corejs: 指定corejs版本，只有在mode为"usage"、"entry"时有效，建议尽可能的指定完整的版本号（主版本号.次版本号.修订号），避免无法正确解析目标版本导致polyfills包无法正确加载。
+
+## 其他配置
+
+- module配置，选择编译目标规范时，需要再.swcrc中指定module配置。
+- 压缩和混淆配置
