@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Coder's Home"
-  text: ""
+  text: ''
   tagline: Front-end、Go developer and Reader
   actions:
     - theme: brand
@@ -22,9 +22,9 @@ features:
     details: 不定时总结、发布前端、避坑建议和经验，持续更新
     icon:
       src: /icons/dash.svg
-  - icon:
+  - title: Go语言
+    icon:
       src: /icons/go.svg
-    title: Go语言
     details: 以开发Web应用为目标
 
   - title: 读书单

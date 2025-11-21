@@ -1,4 +1,4 @@
-// node_modules/.pnpm/@vue+devtools-shared@8.0.3/node_modules/@vue/devtools-shared/dist/index.js
+// node_modules/.pnpm/@vue+devtools-shared@8.0.5/node_modules/@vue/devtools-shared/dist/index.js
 var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
@@ -464,7 +464,7 @@ function createHooks() {
 var { clearTimeout: clearTimeout2, setTimeout: setTimeout2 } = globalThis;
 var random = Math.random.bind(Math);
 
-// node_modules/.pnpm/@vue+devtools-kit@8.0.3/node_modules/@vue/devtools-kit/dist/index.js
+// node_modules/.pnpm/@vue+devtools-kit@8.0.5/node_modules/@vue/devtools-kit/dist/index.js
 var __create2 = Object.create;
 var __defProp2 = Object.defineProperty;
 var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -955,7 +955,7 @@ var RefStateEditor = class {
 var stateEditor = new StateEditor();
 var TIMELINE_LAYERS_STATE_STORAGE_ID = "__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS_STATE__";
 function getTimelineLayersStateFromStorage() {
-  if (!isBrowser || typeof localStorage === "undefined" || localStorage === null) return {
+  if (typeof window === "undefined" || !isBrowser || typeof localStorage === "undefined" || localStorage === null) return {
     recordingState: false,
     mouseEventEnabled: false,
     keyboardEventEnabled: false,
