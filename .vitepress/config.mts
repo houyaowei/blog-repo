@@ -36,6 +36,20 @@ export default defineConfig({
           { text: 'JavaScript30年', link: '/javascript/js-30-years' },
           { text: 'stringify的其他用法', link: '/javascript/stringify' },
           { text: 'AbortController', link: '/javascript/abort-controller' },
+          { text: 'Proxy限制', link: '/javascript/proxy-restrict' },
+          { text: 'js异常隔离', link: '/javascript/js-isolation' },
+          { text: 'WebWorker总结', link: '/javascript/web-worker' },
+          {
+            text: 'ArrayBuffer，Base64 和 Blob',
+            link: '/javascript/byte-blob-base64',
+          },
+          {
+            text: 'File相关',
+            link: '/javascript/file-relation',
+          },
+          { text: '柯里化与偏函数', link: '/javascript/curring' },
+          { text: 'DOM继承关系', link: '/javascript/dom-inherit' },
+          { text: '暗黑模式', link: '/javascript/theme' },
         ],
       },
       {
