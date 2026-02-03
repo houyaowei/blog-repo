@@ -12,7 +12,6 @@ export default defineConfig({
       { text: '闲读书', link: '/books' },
       { text: '关于我', link: '/about-me' },
     ],
-
     sidebar: [
       {
         text: '边角料',
