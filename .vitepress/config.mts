@@ -64,6 +64,11 @@ export default defineConfig({
         items: [{ text: 'TypeScript片段', link: '/typescript/snippets' }],
       },
       {
+        text: 'CSS',
+        collapsible: true,
+        items: [{ text: 'Modern CSS', link: '/css-details/modern-css' }],
+      },
+      {
         text: '构建工具',
         collapsed: false,
         items: [

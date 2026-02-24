@@ -1,2 +1,3 @@
 # blog-repo
-www.houyuewei.cn
+
+[www.houyuewei.cn](http://www.houyuewei.cn)
