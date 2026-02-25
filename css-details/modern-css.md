@@ -145,6 +145,7 @@ section:has(.featured) {
 ## 容器查询单位
 
 <table>
+    <tbody>
     <tr>
         <td>单位</td>
         <td>描述</td>
@@ -173,6 +174,7 @@ section:has(.featured) {
         <td>cqmax</td>
         <td>表示容器查询较大尺寸的占比，例如容器尺寸是 300px * 500px，则 100cqmax 对应的是尺寸较大的高度 500px</td>
     </tr>
+    </tbody>
 </table>
 
 ## Subgrid
@@ -184,4 +186,4 @@ section:has(.featured) {
 
 最后附上大漠老师对modern css属性范围的整理
 
-<image src="./modern-css.jpg" width="700px"/>
+<image src="/modern-css.jpg" width="700px"/>
