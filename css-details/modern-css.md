@@ -1,4 +1,4 @@
-# Modern CSS概述
+# Modern CSS
 
 ## @container
 
@@ -28,7 +28,7 @@
 }
 ```
 
-使用container-type定义容器类型，有4个选项可以配置
+使用container-type **定义容器**类型，有4个选项可以配置
 
 - normal：该元素不是任何容器尺寸查询的查询容器，但仍然是容器样式查询的查询容器。
 - inline-size：查询基于容器行向尺度，将布局、样式和大小的限制应用于容器元素。
@@ -144,4 +144,44 @@ section:has(.featured) {
 
 ## 容器查询单位
 
+<table>
+    <tr>
+        <td>单位</td>
+        <td>描述</td>
+    </tr>
+    <tr>
+        <td>cqw</td>
+        <td>表示容器查询宽度占比，1cqw 等于容器宽度的 1%</td>
+    </tr>
+    <tr>
+        <td>cqh</td>
+        <td>表示容器查询高度占比，1cqh 等于容器高度的 1%</td>
+    </tr>
+    <tr>
+        <td>cqi</td>
+        <td>表示容器查询内联方向尺寸占比。默认情况下，Inline-Size指的就是水平方向，对应的是宽度，因此，1cqi 通常可以看成是容器宽度的 1%</td>
+    </tr>
+    <tr>
+        <td>cqb</td>
+        <td>表示容器查询块级方向尺寸占比。默认情况下，Block-Size指的就是垂直方向，对应的是高度，因此，1cqb 通常可以看成是容器高度的 1%</td>
+    </tr>
+    <tr>
+        <td>cqmin</td>
+        <td>表示容器查询较小尺寸的占比，例如容器尺寸是 300px * 500px，则 100cqmin 对应的是尺寸较小的宽度 300px</td>
+    </tr>
+    <tr>
+        <td>cqmax</td>
+        <td>表示容器查询较大尺寸的占比，例如容器尺寸是 300px * 500px，则 100cqmax 对应的是尺寸较大的高度 500px</td>
+    </tr>
+</table>
+
 ## Subgrid
+
+[mdn例子](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid) <br>
+[css tricks](https://css-tricks.com/complete-guide-css-grid-layout/)
+
+## 最后
+
+最后附上大漠老师对modern css属性范围的整理
+
+<image src="./modern-css.jpg" width="700px"/>
