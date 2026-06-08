@@ -80,6 +80,7 @@ export default defineConfig({
           { text: 'Webpack插件开发', link: '/build-tools/webpack-plugin' },
           { text: 'Vite插件开发', link: '/build-tools/vite-plugin' },
           { text: 'swc', link: '/build-tools/swc' },
+          { text: 'Node/Deno/Bun', link: '/build-tools/node-deno-bun' },
         ],
       },
       {
