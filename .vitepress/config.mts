@@ -38,6 +38,7 @@ export default defineConfig({
           { text: 'Proxy限制', link: '/javascript/proxy-restrict' },
           { text: 'js异常隔离', link: '/javascript/js-isolation' },
           { text: 'WebWorker总结', link: '/javascript/web-worker' },
+          { text: 'pdf预览', link: '/javascript/pdf-view' },
           {
             text: 'ArrayBuffer，Base64 和 Blob',
             link: '/javascript/byte-blob-base64',
