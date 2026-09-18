@@ -62,7 +62,10 @@ export default defineConfig({
       {
         text: 'AI和前端',
         collapsible: true,
-        items: [{ text: 'AI对前端的冲击', link: '/AI/ai-for-fe' }],
+        items: [
+          { text: 'AI对前端的冲击', link: '/AI/ai-for-fe' },
+          { text: 'AGENTS的作用和写法', link: '/AI/agents' },
+        ],
       },
       {
         text: 'TypeScript',
